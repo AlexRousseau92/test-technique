@@ -1,0 +1,31 @@
+.header{
+    background-color: #f1F1F1;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-logo{
+        margin: 1rem;
+        width: 150px;
+    }
+
+    &-links{
+        display: flex;
+    }
+
+    & p {
+        font-size: 1.8rem;
+        margin: 1rem;
+        font-style: italic;
+        font-weight: bold;
+    }
+
+    &-link{
+        text-decoration: underline;
+
+        /*
+            Soulignement pour simuler la classe "active" fournie avec les NavLinks de react afin de savoir sur quelle page nous sommes
+        */
+    }
+}
